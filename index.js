@@ -36,10 +36,12 @@ async function drawData(data) {
 
    console.log(chalk.redBright(`Total Cases: ${data.totalCases}`))
 
+   // blank line
    console.log('');
 
    console.log('BY COUNTY')
-   console.log(new Array(101).join('-'));
+   // full screen dashed line
+   console.log(new Array(process.stdout.columns + 1).join('-'));
 
    const table = new Table({ head: ['County', 'Cases'] });
 
