@@ -19,8 +19,10 @@ covid-ny
 
 ### Options
 
-   * `--refresh {number}` Refresh the display in a certain time interval in seconds.
+   * `--refresh {number}` Refresh the display in a certain time interval in hours.
      Defaults to false (do not refresh)
+      * NOTE: the data is really only updated once per day, so there's really no need to
+        set a refresh
    * `--clear` If set, clear the console before displaying. Always true if refresh is set.
 
 ## Output

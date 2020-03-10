@@ -54,7 +54,8 @@ function run() {
    getData().then(drawData);
 
    if (refresh) {
-      setTimeout(run, refresh * 1000);
+      // refresh is set in hours
+      setTimeout(run, refresh * 3600 * 1000);
    }
 }
 
