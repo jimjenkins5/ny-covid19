@@ -1,0 +1,22 @@
+{
+  "name": "ny-covid-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "covid-ny": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "3.0.0",
+    "clear": "0.1.0",
+    "cli-table3": "0.5.1",
+    "figlet": "1.3.0",
+    "minimist": "1.2.0",
+    "node-fetch": "2.6.0"
+  }
+}
