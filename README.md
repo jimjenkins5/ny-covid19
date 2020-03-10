@@ -22,3 +22,35 @@ covid-ny
    * `--refresh {number}` Refresh the display in a certain time interval in seconds.
      Defaults to false (do not refresh)
    * `--clear` If set, clear the console before displaying. Always true if refresh is set.
+
+## Output
+
+```bash
+  _   _  __   __     ____    ___   __     __  ___   ____      _    ___
+ | \ | | \ \ / /    / ___|  / _ \  \ \   / / |_ _| |  _ \    / |  / _ \
+ |  \| |  \ V /    | |     | | | |  \ \ / /   | |  | | | |   | | | (_) |
+ | |\  |   | |     | |___  | |_| |   \ V /    | |  | |_| |   | |  \__, |
+ |_| \_|   |_|      \____|  \___/     \_/    |___| |____/    |_|    /_/
+
+Total Cases: 142
+
+BY COUNTY
+----------------------------------------------------------------------------------------------------
+┌────────────────────┬───────┐
+│ County             │ Cases │
+├────────────────────┼───────┤
+│ Westchester County │ 98    │
+├────────────────────┼───────┤
+│ Nassau County      │ 17    │
+├────────────────────┼───────┤
+│ Rockland County    │ 4     │
+├────────────────────┼───────┤
+│ Saratoga County    │ 2     │
+├────────────────────┼───────┤
+│ Suffolk County     │ 1     │
+├────────────────────┼───────┤
+│ Ulster County      │ 1     │
+├────────────────────┼───────┤
+│ New York City      │ 19    │
+└────────────────────┴───────┘
+```
